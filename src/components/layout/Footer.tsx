@@ -39,6 +39,7 @@ const Footer = () => {
               <LinkItem href="https://www.instagram.com/realrobinshood/" text="Instagram" />
               <LinkItem href="https://kick.com/robinshoodofficial" text="Live Stream – Kick" />
               <LinkItem href="https://twitter.com/RobinsHoodoff" text="Twitter" />
+              <LinkItem href="https://twitter.com/RobinsHoodoff" text="Github" />
             </ul>
           </aside>
 
@@ -48,7 +49,7 @@ const Footer = () => {
             <ul>
               <LinkItem href="https://robinshood.me/crypto-casinos-with-faucet/" text="Faucet Casinos" />
               <LinkItem href="https://robinshood.me/dice-calculator/" text="Dice Calculator" />
-              <LinkItem href="https://robinshood.me/robins-faucet/" text="Robins Faucet" />
+              <LinkItem href="https://github.com/robinshoodcoin/" text="Robins Faucet" />
             </ul>
           </aside>
 
@@ -92,7 +93,7 @@ const Footer = () => {
             if(index === 1) {
               return <Link
                 key={route.id}
-                href={"https://robins-organization-9.gitbook.io/guide/overview/how-to-buy/how-to-buy-usdrhc"}
+                href={"https://robinshood.gitbook.io/robinshood-coin/"}
                 className="text-secondary hover:text-primary"
                 target="_blank"
               >
@@ -102,7 +103,7 @@ const Footer = () => {
             if(index === 3) {
               return <Link
                 key={route.id}
-                href={"https://4165820710-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSrNafJVEQDU0oPFzjACf%2Fuploads%2FjaiyBOv3Qbw2YI5Pli6E%2FRobinsHood%20Coin.pdf?alt=media&token=177370bf-b739-4acb-bbff-e49b4bdd03fd"}
+                href={"https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fem33iVuZyxcVLzyggIoo%2Fuploads%2F5W95TdVxIyvrT7hl7YAG%2FHoodcoin-whitepaper.pdf?alt=media&token=0142ac19-c0ca-4dc7-80dc-7517169ed990"}
                 className="text-secondary hover:text-primary"
                 target="_blank"
               >

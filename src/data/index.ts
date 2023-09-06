@@ -17,7 +17,7 @@ export const routes = [
   {
     id: "4",
     name: "Whitepaper",
-    href: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSrNafJVEQDU0oPFzjACf%2Fuploads%2FjaiyBOv3Qbw2YI5Pli6E%2FRobinsHood%20Coin.pdf?alt=media&token=177370bf-b739-4acb-bbff-e49b4bdd03fd",
+    href: "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fem33iVuZyxcVLzyggIoo%2Fuploads%2F5W95TdVxIyvrT7hl7YAG%2FHoodcoin-whitepaper.pdf?alt=media&token=0142ac19-c0ca-4dc7-80dc-7517169ed990",
   },
   {
     id: "5",

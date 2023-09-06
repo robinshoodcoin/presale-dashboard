@@ -306,7 +306,7 @@ const WalletBox = () => {
 
             <a
               className="text-[#535353] bg-[#f1f4f6] leading-none font-medium text-sm w-full py-3 px-4 rounded-full h-[42px] flex justify-center items-center border-2 border-[#f1f4f6]"
-              href="https://robins-organization-9.gitbook.io/guide/overview/how-to-buy/how-to-buy-usdrhc"
+              href="https://robinshood.gitbook.io/robinshood-coin/"
               target="_blank"
               style={{ background: "#cf2e2e", color: "white" }}
             >

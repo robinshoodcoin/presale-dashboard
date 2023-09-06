@@ -99,7 +99,7 @@ const Navbar = () => {
                 <Link
                   key={route.id}
                   href={
-                    "https://robins-organization-9.gitbook.io/guide/overview/how-to-buy/how-to-buy-usdrhc"
+                    "https://robinshood.gitbook.io/robinshood-coin/"
                   }
                   className={`text-[14px] leading-6 flex flex-col relative tracking-[0.3em] px-6 items-center justify-center h-full ${
                     target === route.href
@@ -119,7 +119,7 @@ const Navbar = () => {
                 <Link
                   key={route.id}
                   href={
-                    "https://4165820710-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSrNafJVEQDU0oPFzjACf%2Fuploads%2FjaiyBOv3Qbw2YI5Pli6E%2FRobinsHood%20Coin.pdf?alt=media&token=177370bf-b739-4acb-bbff-e49b4bdd03fd"
+                    "https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fem33iVuZyxcVLzyggIoo%2Fuploads%2F5W95TdVxIyvrT7hl7YAG%2FHoodcoin-whitepaper.pdf?alt=media&token=0142ac19-c0ca-4dc7-80dc-7517169ed990"
                   }
                   className={`text-[14px] leading-6 flex flex-col relative tracking-[0.3em] px-6 items-center justify-center h-full ${
                     target === route.href
