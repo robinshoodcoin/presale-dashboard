@@ -37,6 +37,7 @@ export const team = [
     name: "Thijme",
     designation: "Founder and CEO of RHC",
     img: "/assets/person/person1.jpg",
+    telegram: "https://t.me/realrobinshood",
     details:
       "Thijme, also known as RobinsHood, was one of the early birds who got into Ethereum when it was just starting out. He's actually the person behind one of the biggest websites in the Netherlands with millions of visitors every month.",
   },
@@ -45,6 +46,7 @@ export const team = [
     name: "0xJeremy",
     designation: "CTO of RHC",
     img: "/assets/person/person2.jpg",
+    telegram: "https://t.me/cooljeremy00",
     details:
       "Jeremy, also known as 0xJeremy, has led 10+ Defi projects from the ground to great success. He's very experienced in winde ranges of cutting-edge technologies and ready to make a huge wave with us. Let's run!",
   },
@@ -53,6 +55,7 @@ export const team = [
     name: "Sleepy Penguin",
     designation: "COO",
     img: "/assets/person/person3.jpg",
+    telegram: "https://t.me/SleepyPenguiin",
     details:
       "Sleepy Penguin is passionate crypto evangelist with a proven knack for translating complex crypo concepts into compelling narratives. His mission is to propel our project to the forefront of the crypto sphere, fostering widespread adoption through innovative marketing strategies.",
   },
@@ -64,6 +67,7 @@ export const advisors = [
     name: "Swan Moon",
     designation: "Business Strategy",
     img: "/assets/person/person4.jpg",
+    telegram: "https://t.me/SwaniePrincesa",
     details:
       "Swan, also known as helloKitty, is a data-driven enthusiast with a deep understanding of blockchain trends and market behavior, she specializes in transforming complex crypto data into actionable insights. Her expertise lies in identifying patterns, predicting market movements.",
   },
@@ -72,6 +76,7 @@ export const advisors = [
     name: "Zachary Noe",
     designation: "Advisor",
     img: "/assets/person/person5.jpg",
+    telegram: "https://t.me/ZacharyNoe",
     details:
       "With 8 years of hands-on experience in the crypto space, offers expert guidance on blockchain technology and investment strategies. His holistic approach combines technical knowledge with a keen understanding of market dynamics, empowering clients to navigate the crypto landscape.",
   },
@@ -80,6 +85,7 @@ export const advisors = [
     name: "Omenrain",
     designation: "PR and Advisor",
     img: "/assets/person/person6.jpg",
+    telegram: "https://t.me/theotherguyoverthere",
     details:
       "He has over 4 years of hands-on experience in the blockchain industry. He's well versed in marketing, laws, 18 years in sales and 8 management with a business administration degree.",
   },
@@ -143,7 +149,7 @@ export const roadmaps = [
   },
   {
     id: "6",
-    img: "/assets/roadmap/roadmap3.png",
+    img: "/assets/roadmap/roadmap1.png",
     color: "#852DEE",
     title: "Q4 2024",
     content: [

@@ -13,8 +13,8 @@ import { CONTRACT_ADDRESSES } from "@/constants";
 import { useAccount, useNetwork, useSigner, useSwitchNetwork } from "wagmi";
 
 const WalletBox = () => {
-  const date = "2023-09-02"; // countdown date
-  const start_date = "2023-08-23";
+  const date = "2023-09-25"; // countdown date
+  const start_date = "2023-09-06";
   const [timeLeft, setTimeLeft] = useState<any>(null);
   const [progress, setProgress] = useState(0);
   useEffect(() => {
@@ -182,15 +182,14 @@ const WalletBox = () => {
             Total Raised: $14,103.23
           </p>
           <p className="mb-2 text-[12px] font-semibold py-1">
-            We only support{" "}
+            You can find our token contract {" "}
             <a
-              href="https://metamask.io/download/"
+              href="https://bscscan.com/address/0x3E6106e52ACDC50fA0a8997e1bD9170D6a7a25c7"
               target="_blank"
               className="underline"
             >
-              Metamask
-            </a>{" "}
-            for now!
+              here!
+            </a>
           </p>
         </section>
 

@@ -73,6 +73,12 @@ const Tokenomics = () => {
           />
         )}
       </section>
+
+      <div className="text-center mt-20">
+        <p className="mb-0 text-2xl not-italic font-bold text-[#3fbd82]">
+          Total Supply : 7 billion
+        </p>
+      </div>
     </div>
   );
 };

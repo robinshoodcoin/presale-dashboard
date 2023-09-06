@@ -26,7 +26,7 @@ const OurTeam = () => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 gap-2 px-2 py-0 mt-20 gap-y-5 sm:gap-5 sm:px-11 sm:grid-cols-2 sm:grid-cols-3 place-items-center place-content-center">
+        <div className="grid grid-cols-1 gap-2 px-2 py-0 mt-20 gap-y-5 sm:gap-5 sm:px-11 sm:grid-cols-2 lg:grid-cols-3 place-items-center place-content-center">
           {advisors?.map((advisor, index) => (
             <Member key={advisor.id} item={advisor} />
           ))}
@@ -47,7 +47,7 @@ const Member = ({ item }: { item: any }) => {
               src={item.img}
               alt={`person${item.id}`}
               fill
-              className="max-w-[250px] max-h-[250px] rounded-t-[10px]"
+              className="max-w-[250px] max-h-[280px] rounded-t-[10px]"
             />
           </div>
           <div className="h-[20%] px-[10px]">
@@ -68,13 +68,16 @@ const Member = ({ item }: { item: any }) => {
             </p>
           </div>
           <hr className="m-0 mb-[3%] h-[1%] bg-white" />
-          <div className="h-[20%] px-[10px]">
+          <div className="h-[20%] px-[5px]">
             <h3 className="m-0 text-sm not-italic font-semibold text-primary">
               {item.name}
             </h3>
-            <p className="not-italic font-normal text-sm text-primary mt-[7px] m-0">
+            <p className="not-italic font-normal text-sm text-primary mt-[3px] m-0">
               {item.designation}
             </p>
+            <a href={item.telegram} target="_blank" className="italic font-bold text-sm text-primary mt-[3px] m-0">
+              Contact
+            </a>
           </div>
         </div>
       </div>

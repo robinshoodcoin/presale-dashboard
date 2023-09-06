@@ -1,6 +1,6 @@
 # RobinsHood
 
-Deployed at <https://robinshood.vercel.app>
+Our official dashboard is [hoodcoin.tech]((https://www.hoodcoin.tech/))
 
 ## Tech used
 
@@ -8,17 +8,15 @@ Deployed at <https://robinshood.vercel.app>
 - Tailwind CSS
 - TypeScript
 - ESLint
+- EthersJS
 
-## Development
+## Contract Address
 
-First, run the development server:
+- Our RobinsHood Coin is [here](https://bscscan.com/address/0x3E6106e52ACDC50fA0a8997e1bD9170D6a7a25c7)
+- Our Presale contract is [here](https://bscscan.com/address/0x38979537ff981a47f91e10f813fd4a536be4897a)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Community
 
-Open <http://localhost:3000> with your browser to see the result.
+- [Twitter](https://twitter.com/RobinsHoodoff)
+- [Telegram](http://t.me/robinshood_chat)
+- [Discord](https://discord.gg/vHtxp4u9TJ)
