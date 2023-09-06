@@ -1,0 +1,23 @@
+.card {
+  @apply w-[250px] h-[330px] float-left;
+  perspective: 500px;
+}
+.content {
+  @apply absolute w-full h-full shadow-[0_0_15px_rgba(0,0,0,0.1)] transition-transform duration-[1s];
+  transform-style: preserve-3d;
+}
+.card:hover .content {
+  @apply transition-transform duration-[0.5s];
+  transform: rotateY(180deg);
+}
+.front,
+.back {
+  @apply absolute h-full w-full text-[#03446a] text-center rounded-[10px];
+  background: linear-gradient(90deg, #00d084 0%, #124b3b 100%);
+  backface-visibility: hidden;
+}
+.back {
+  @apply text-[white];
+  background: linear-gradient(90deg, #00d084 0%, #124b3b 100%);
+  transform: rotateY(180deg);
+}
